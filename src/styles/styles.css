@@ -274,3 +274,159 @@ ul{
     width: 45%;
     margin-left: 10%
 }
+/*  */
+.Article-h2{
+    text-align: center;
+}
+
+.Article-text-h3{
+    font-size: 18px;
+}
+.Article-text-p{
+    font-size: 10px;
+}
+.Article-text-block-square{
+    width: 180px;
+    height: 50px;
+    background: var(--quinary-color);
+    margin-top: 50px;
+    margin-left: 8%;
+}
+.Article-text{
+    display: flex;
+}
+.Article{
+    width: 100%;
+}
+.Article-text-move{
+    width: 40%;
+    padding-left: 2%;
+}
+.Article-text-block{
+    width: 60%;
+}
+/*  */
+.square-img__2__2{
+    padding-top: 50px;
+}
+
+/*  */
+.square--img{
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    padding-top: 40px;
+}
+
+.square--img-div{
+    width: 75px;
+    height: 75px;
+    background: var(--quinary-color);
+}
+.square--img-div-1{
+    padding-right: 10px;
+}
+.square--img-div-2{
+    padding-right: 10px;
+}
+.square--img-div-3{
+    padding-right: 10px;
+}
+.square--p{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+}
+.square--p-1{
+    padding-right: 2%;
+}
+.square--p-2{
+    padding-right: 2%;
+}
+.square--p-3{
+    padding-right: 2%;
+}
+/*  */
+.secon--formulary{
+    background: var(--quaternary-color);
+    padding: 2%;
+}
+.secon--formulary__input{
+    width: 85%;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    background-color: white;
+}
+.secon--formulary--bar{
+    width: 92%;
+}
+/*  */
+.map{
+    height: 300px;
+    background-image: url(mapa-de-una-ciudad-en-el-estilo-de-gps-61705505.jpg);
+    display: flex;
+    justify-content: center;
+}
+.third--formulary{
+    background: white;
+    border-radius: 10px;
+    width: 250px;
+    height: 170px;
+    padding: 10px;
+    text-align: center;
+}
+.third--formulary__input{
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    background-color: var(--quaternary-color);
+}
+.third--formulary--bar{
+    width: 93%;
+}
+
+.map--third--formulary{
+    padding-top: 40px;
+}
+/*  */
+.footer-img{
+    background: var(--secondary-color);
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.footer__logo-div{
+    display: flex;
+    margin-left: 2%;
+} 
+.footer__logo-lettering{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+    color: black;
+}
+/*  */
+.links{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.link--1, .link--2, .link--3, .link--4{
+    color: black;
+}
+.link--1, .link--2, .link--3{
+    padding-right: 5%;
+}
+.links-options{
+    display: flex;
+    padding-bottom: 15px;
+}
+.footer{
+    background: var(--quaternary-color);
+}
