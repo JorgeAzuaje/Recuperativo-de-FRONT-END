@@ -4,6 +4,8 @@
     --primary-color: #6495ED;
     --secondary-color: #191970;
     --tertiary-color: #1E90FF;
+    --quaternary-color: #D3D3D3;
+    --quinary-color: #A9A9A9;
     --secondary-color-trans: rgb(28, 85, 92, .35);
     --grey: rgb(109, 109, 109);
 }
@@ -187,4 +189,22 @@ ul{
 }
 .FEATURES--p-2{
     padding-right: 10px;
+}
+/*  */
+.square-img-1, .square-img-2{
+    width: 100%;
+    display: flex;
+}
+.square-img-1{
+    padding-top: 50px;
+}
+.square-img-1-1, .square-img-1-3, .square-img-2-2, .square-img-2-4{
+    height: 100px;
+    width: 25%;
+    background: var(--quaternary-color);
+}
+.square-img-1-2, .square-img-1-4, .square-img-2-1, .square-img-2-3{
+    height: 100px;
+    width: 25%;
+    background: var(--quinary-color);
 }
