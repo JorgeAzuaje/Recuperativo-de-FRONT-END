@@ -91,3 +91,14 @@
         padding-right: 10%;
     }
 }
+
+@media screen and (min-width: 1000px){
+    .container--video-text{
+        height: 900px;
+    }
+    .Article-text-block-square{
+        width: 450px;
+        height: 60px;
+
+    }
+}
