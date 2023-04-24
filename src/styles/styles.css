@@ -158,9 +158,6 @@ ul{
     display: flex;
     justify-content: center;
 }
-/* .FEATURES--h2{
-    width: 100%;
-} */
 .FEATURES--circle{
     display: flex;
     justify-content: center;
@@ -173,10 +170,7 @@ ul{
     background: var(--secondary-color);
     border-radius: 100px;
 }
-.FEATURES--circle-div-1{
-    padding-right: 10px;
-}
-.FEATURES--circle-div-2{
+.FEATURES--circle-div-1, .FEATURES--circle-div-2{
     padding-right: 10px;
 }
 
@@ -184,10 +178,7 @@ ul{
     display: flex;
     justify-content: center;
 }
-.FEATURES--p-1{
-    padding-right: 10px;
-}
-.FEATURES--p-2{
+.FEATURES--p-1, .FEATURES--p-2{
     padding-right: 10px;
 }
 /*  */
@@ -211,6 +202,10 @@ ul{
 /*  */
 .first--formulary{
     padding-left: 2%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
 }
 .first--formulary-div{
     margin: 8px 0;
@@ -225,7 +220,7 @@ ul{
     background-color: var(--quaternary-color);
 }
 .first--formulary--bar{
-    width: 92%;
+    width: 90%;
 }
 
 /*  */
@@ -323,13 +318,7 @@ ul{
     height: 75px;
     background: var(--quinary-color);
 }
-.square--img-div-1{
-    padding-right: 10px;
-}
-.square--img-div-2{
-    padding-right: 10px;
-}
-.square--img-div-3{
+.square--img-div-1, .square--img-div-2, .square--img-div-3{
     padding-right: 10px;
 }
 .square--p{
@@ -337,13 +326,7 @@ ul{
     justify-content: center;
     font-size: 13px;
 }
-.square--p-1{
-    padding-right: 2%;
-}
-.square--p-2{
-    padding-right: 2%;
-}
-.square--p-3{
+.square--p-1, .square--p-2, .square--p-3{
     padding-right: 2%;
 }
 /*  */
@@ -365,7 +348,7 @@ ul{
 /*  */
 .map{
     height: 300px;
-    background-image: url(mapa-de-una-ciudad-en-el-estilo-de-gps-61705505.jpg);
+    background-image: url(../assets/img/mapa-de-una-ciudad-en-el-estilo-de-gps-61705505.jpg);
     display: flex;
     justify-content: center;
 }
@@ -429,4 +412,8 @@ ul{
 }
 .footer{
     background: var(--quaternary-color);
+}
+
+.i{
+    text-align: center;
 }

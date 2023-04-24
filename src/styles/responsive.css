@@ -1,0 +1,93 @@
+@media screen and (min-width: 768px){
+    .header__logo-div{
+        margin-left: 11%;
+    } 
+    .header__button {
+        margin-right: 11%;
+    }
+    .landing--page-h2{
+        font-size: 22px;
+    }
+    .landing--page-p{
+        font-size: 15px;
+    }
+    .landing--page-img-div{
+        width: 150px;
+        height: 150px;
+        margin-right: 11%;
+    }
+    .landing--page-goup{
+        margin-left: 11%
+    }
+    .landing--page-v{
+        margin-top: 50px;
+        color: white;
+        text-align: center;
+    }
+    .FEATURES--circle-div-1, .FEATURES--circle-div-2{
+        padding-right: 50px;
+    }
+    .FEATURES--p-1, .FEATURES--p-2{
+        padding-right: 50px;
+    }
+    .square-img-1-1, .square-img-1-3, .square-img-2-2, .square-img-2-4{
+        height: 200px;
+    }
+    .square-img-1-2, .square-img-1-4, .square-img-2-1, .square-img-2-3{
+        height: 200px;
+    }
+    .first--formulary-h3{
+        font-size: 22px;
+    }
+    .video--texto-square{
+        width: 70%;
+        height: 270px;
+        display: flex;
+        padding: 5%;
+    }
+    .video--texto-square-h3{
+        font-size: 22px;
+    }
+    .video--texto-square-p{
+        font-size: 15px;
+    }
+    .landing--page-2{ 
+        height: 240px;
+        padding-top: 15px;
+    }
+    .landing--page-goup-2{
+        width: 45%;
+        margin-left: 15%
+    }
+    .Article-text-h3{
+        font-size: 22px;
+    }
+    .Article-text-p{
+        font-size: 15px;
+    }
+    .Article-text-block-square{
+        width: 250px;
+        height: 60px;
+
+    }
+    .Article-text-move{
+        width: 50%;
+        padding-left: 15%;
+    }
+    .square--p{
+        font-size: 15px;
+    }
+    .square--p-1, .square--p-2, .square--p-3{
+        padding-right: 9%;
+    }
+    .square--img-div{
+        width: 100px;
+        height: 100px;
+    }
+    .square--img-div-1, .square--img-div-2, .square--img-div-3{
+        padding-right: 8%;
+    }
+    .link--1, .link--2, .link--3{
+        padding-right: 10%;
+    }
+}
