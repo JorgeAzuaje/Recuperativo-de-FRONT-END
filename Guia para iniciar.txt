@@ -1,0 +1,9 @@
+Para ejecutar el código se ejecuta el siguiente comando en la terminal del Visual Studio Code.
+
+npm init -y
+
+Posterior a eso, se coloca el comando
+
+npm run dev
+
+La página se abrirá automáticamente en el navegador predeterminado del dispositivo.
